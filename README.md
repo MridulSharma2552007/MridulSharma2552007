@@ -35,7 +35,7 @@
 - Coding to the hum of old fans and CRT fuzz  
 
 <p align="center">
-  <img src="https://i.imgur.com/WMAgRR5,jpeg" width="500" alt="Retro IBM PC"/>
+  <img src="https://i.imgur.com/t0wjNtL.jpeg" width="500" alt="Retro IBM PC"/>
 </p>
 
 ---
@@ -58,5 +58,5 @@
 - 🖤 Here to build, learn & leave something meaningful behind
 
 <p align="center">
-  <img src="https://i.imgur.com/oZiWvXL.gif" width="300" alt="Vintage computer aesthetic"/>
+  <img src="https://i.imgur.com/vCABT6w.jpeg" width="300" alt="Vintage computer aesthetic"/>
 </p>
