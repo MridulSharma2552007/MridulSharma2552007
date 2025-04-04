@@ -1,6 +1,6 @@
 <h1 align="center">Hi there 👋 I'm Mridul</h1>
 <p align="center">
-  <img src="https://i.imgur.com/KDB2RWK.gif" width="200" alt="Retro computer booting up"/>
+  <img src="https://pin.it/ry14mvALx" width="200" alt="Retro computer booting up"/>
 </p>
 
 <p align="center">
