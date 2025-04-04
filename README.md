@@ -21,16 +21,15 @@
 ---
 
 ### 🔧 Tech I Use & Love
-- **Languages:** Dart, Python, C
-- **Frameworks:** Flutter, FastAPI
-- **Tools:** Arch Linux, Hyprland, VSCode, Wireshark
+- **Languages:** Dart, C
+- **Frameworks:** Flutter
+- **Tools:** Arch Linux, Hyprland, VSCode
 
 ---
 
 ### 🖥️ Retro Love
 > “There’s something poetic about a beige IBM booting into BASIC...”
-
-- Collecting vintage computer images and manuals  
+  
 - Inspired by the simplicity and limitations of old tech  
 - Coding to the hum of old fans and CRT fuzz  
 
