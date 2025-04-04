@@ -1,6 +1,6 @@
 <h1 align="center">Hi there 👋 I'm Mridul</h1>
 <p align="center">
-  <img src=https://github.com/akira2552007/akira2552007/blob/main/Register%20-%20Login.gif" width="200" alt="Retro computer booting up"/>
+  <img src="https://i.mgur.com/t0wjNtL,jpeg" width="200" alt="Retro computer booting up"/>
 </p>
 
 <p align="center">
@@ -35,7 +35,7 @@
 - Coding to the hum of old fans and CRT fuzz  
 
 <p align="center">
-  <img src="https://i.imgur.com/f0zJjfB.png" width="500" alt="Retro IBM PC"/>
+  <img src="https://i.imgur.com/WMAgRR5,jpeg" width="500" alt="Retro IBM PC"/>
 </p>
 
 ---
