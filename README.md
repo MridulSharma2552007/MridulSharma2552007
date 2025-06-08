@@ -15,13 +15,12 @@
 ---
 
 ### 💾 Currently Working On
-- A college app with face recognition & location-based attendance
 - A personal productivity system using Obsidian & Git
 
 ---
 
 ### 🔧 Tech I Use & Love
-- **Languages:** Dart, C
+- **Languages:** Dart, C,python
 - **Frameworks:** Flutter
 - **Tools:** Arch Linux, Hyprland, VSCode
 
