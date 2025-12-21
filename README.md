@@ -6,89 +6,93 @@
 
 ---
 
-## 🧠 about me
+## about_me.exe
 
 <img align="right" width="430" src="assets/computer.gif"/>
 
-i like **quiet rooms**,  
-**old computers**,  
-and building things.
+quiet rooms.  
+old machines.  
+unfinished thoughts.
 
 i don’t talk much.  
-i code.
+i type.  
+things appear.
 
-currently:
-- 🎓 student
-- 🛠️ building projects slowly, properly
-- 🍂 autumn > everything
-- 📡 sometimes offline, always listening to Radiohead
+currently running:
+- 🎓 student_mode = true
+- 🛠️ build_speed = slow & intentional
+- 🍂 theme = autumn
+- 📡 connection = offline  
+- 🎧 now_playing = radiohead
 
 ---
 
-## 🧰 what i work with
+##  stack.sys
 
 <img align="left" width="300" src="assets/man.gif"/>
 
-- flutter (ui first, logic later)
-- supabase & firebase
-- computer vision / ai experiments
-- linux (arch, obviously)
-- old tech,
-  
+installed_modules:
+- flutter_ui.dll (logic loads later)
+- supabase.db / firebase.sync
+- cv.ai (experimental build)
+- linux.arch (stable, quiet)
+- legacy_hardware_support = enabled
+
 <br clear="both"/>
 
 ---
 
-## 🌍 mindset
+## mindset.log
 
-<img align="right" width="300" src="assets/globe.gif"/>
+<img align="right" width="400" src="assets/globe.gif"/>
 
-- not chasing trends  
-- not racing anyone  
-- learning at my own pace  
+status:
+- not following trends
+- not competing
+- not in a hurry
 
-i believe:
+core_values:
 > consistency > motivation  
 > silence > noise  
 > depth > speed  
 
 ---
 
-## 🎵 coding soundtrack
+## 🎵 soundtrack.mp3
 
 <p align="center">
   <img width="350" src="assets/pixelated_spotify.jpg"/>
 </p>
 
-usually:
+looping:
 - old rock
-- slow music
-- rain sounds
-- nothing at all
+- slow tracks
+- rain.wav
+- silence
 
 ---
 
-## ⚠️ disclaimer
+##  readme_warning.txt
 
-this profile may contain:
-- unfinished ideas
-- late-night commits
-- experimental code
-- overthinking
+this repository may contain:
+- unfinished files
+- 2am commits
+- half-formed ideas
+- excessive thinking
 
-read with patience.
+viewer discretion advised.
 
 ---
 
-## ☕ final note
+## ☕ final_message.dat
 
-i’m not trying to impress.  
-i’m trying to **understand**.
+not here to impress.  
+here to **understand**.
 
-still learning.  
-still building.  
-still here.
+still learning…  
+still building…  
+still online (sometimes).
 
-⭐ if you like quiet builders  
-🍂 if you like autumn vibes  
-🧠 if you like thinking before speaking
+⭐ quiet builders welcome  
+🍂 autumn souls understood  
+🧠 thinkers only
