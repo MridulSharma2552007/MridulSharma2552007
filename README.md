@@ -1,1 +1,3 @@
 ![Snake animation](https://github.com/MridulSharma2552007/MridulSharma2552007/blob/output/github-contribution-grid-snake-dark.svg)
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&size=18&duration=3000&pause=1400&color=A8FFE0&background=050505&width=900&lines=loading+profile...;mridul+sharma;student.+builder.+observer.;old+computers+%7C+autumn+%7C+silence.;working+offline.;status:+still+learning." />
