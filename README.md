@@ -1,6 +1,7 @@
 <p align="center">
   <img src="assets/name.svg" alt="Mridul Sharma" />
 </p>
+
 ![Snake animation](https://github.com/MridulSharma2552007/MridulSharma2552007/blob/output/github-contribution-grid-snake-dark.svg)
 
 
