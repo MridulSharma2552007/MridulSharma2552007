@@ -9,13 +9,18 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: Platane/snk@v3
+      - name: Generate red snake
+        uses: Platane/snk@v3
         with:
           github_user_name: MridulSharma2552007
+          snake_color: "#8B0000"
+          dot_color: "#2b2b2b"
+          background_color: "#050505"
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v3
+            dist/github-contribution-grid-snake-dark.svg
+
+      - name: Push snake to output branch
+        uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
           build_dir: dist
