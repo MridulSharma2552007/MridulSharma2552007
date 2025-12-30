@@ -2,7 +2,8 @@
   <img src="assets/name.svg" alt="Mridul Sharma" />
 </p>
 
-![Snake animation](https://github.com/MridulSharma2552007/MridulSharma2552007/blob/output/github-contribution-grid-snake-dark.svg)
+![Snake animation](https://github.com/MridulSharma2552007/MridulSharma2552007/blob/output/github-contribution-grid-snake-red.svg)
+
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&size=18&duration=3200&pause=1600&color=8B0000&background=050505&width=900&lines=booting+in+dark+mode...;Mridul+Sharma;student.+builder.+observer.;old+machines+%7C+autumn+%7C+silence.;working+offline.;status:+still+learning." />
