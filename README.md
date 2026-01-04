@@ -110,4 +110,3 @@ still wandering the dark.
 
 🕸️ quiet builders welcome  
 🕷️ night thinkers understood  
-☕ ghosts in the terminal only.
