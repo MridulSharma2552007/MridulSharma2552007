@@ -109,4 +109,4 @@ still building…
 still wandering the dark.
 
 🕸️ quiet builders welcome  
-🕷️ night thinkers understood  
+🕷️ night thinkers understood.
