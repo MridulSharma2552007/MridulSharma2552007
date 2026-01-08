@@ -106,7 +106,4 @@ here to **understand**.
 
 still learning…  
 still building…  
-still wandering the dark.
 
-🕸️ quiet builders welcome  
-🕷️ night thinkers understood.
