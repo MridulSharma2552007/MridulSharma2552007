@@ -104,6 +104,4 @@ not here to perform.
 
 here to **understand**.
 
-still learning…  
-still building…
 
