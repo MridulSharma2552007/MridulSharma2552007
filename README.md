@@ -102,6 +102,6 @@ viewer discretion advised.
 not here to impress.  
 not here to perform.
 
-here to **understand**.
+here to **understand**
 
 
