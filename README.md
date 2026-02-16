@@ -73,10 +73,12 @@ int main() {
 ### 📊 `$ git stats`
 
 <div align="center">
-  
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MridulSharma2552007&show_icons=true&theme=gruvbox&hide_border=true&bg_color=1d2021&title_color=fabd2f&icon_color=fe8019&text_color=ebdbb2)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MridulSharma2552007&layout=compact&theme=gruvbox&hide_border=true&bg_color=1d2021&title_color=fabd2f&text_color=ebdbb2)
+<img src="https://github-readme-stats.vercel.app/api?username=MridulSharma2552007&show_icons=true&theme=gruvbox&hide_border=true&bg_color=1d2021&title_color=fabd2f&icon_color=fe8019&text_color=ebdbb2" alt="GitHub Stats" />
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=MridulSharma2552007&theme=gruvbox&hide_border=true&background=1d2021&ring=fabd2f&fire=fe8019&currStreakLabel=fabd2f" alt="GitHub Streak" />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MridulSharma2552007&layout=compact&theme=gruvbox&hide_border=true&bg_color=1d2021&title_color=fabd2f&text_color=ebdbb2" alt="Top Languages" />
 
 </div>
 
