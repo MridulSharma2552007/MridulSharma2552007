@@ -1,109 +1,184 @@
-```
-███╗   ███╗██████╗ ██╗██████╗ ██╗   ██╗██╗         ███████╗██╗  ██╗ █████╗ ██████╗ ███╗   ███╗ █████╗ 
-████╗ ████║██╔══██╗██║██╔══██╗██║   ██║██║         ██╔════╝██║  ██║██╔══██╗██╔══██╗████╗ ████║██╔══██╗
-██╔████╔██║██████╔╝██║██║  ██║██║   ██║██║         ███████╗███████║███████║██████╔╝██╔████╔██║███████║
-██║╚██╔╝██║██╔══██╗██║██║  ██║██║   ██║██║         ╚════██║██╔══██║██╔══██║██╔══██╗██║╚██╔╝██║██╔══██║
-██║ ╚═╝ ██║██║  ██║██║██████╔╝╚██████╔╝███████╗    ███████║██║  ██║██║  ██║██║  ██║██║ ╚═╝ ██║██║  ██║
-╚═╝     ╚═╝╚═╝  ╚═╝╚═╝╚═════╝  ╚═════╝ ╚══════╝    ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝
-```
-
 <div align="center">
-  
-### `$ whoami`
-**Flutter Developer | Low-Level Enthusiast | Open Source Advocate**
 
-*From high-level Flutter apps to bare-metal C — I code across the stack*
+```
+╔═══════════════════════════════════════════════════════════════════════════════╗
+║                                                                               ║
+║   ███╗   ███╗██████╗ ██╗██████╗ ██╗   ██╗██╗         ███████╗██╗  ██╗       ║
+║   ████╗ ████║██╔══██╗██║██╔══██╗██║   ██║██║         ██╔════╝██║  ██║       ║
+║   ██╔████╔██║██████╔╝██║██║  ██║██║   ██║██║         ███████╗███████║       ║
+║   ██║╚██╔╝██║██╔══██╗██║██║  ██║██║   ██║██║         ╚════██║██╔══██║       ║
+║   ██║ ╚═╝ ██║██║  ██║██║██████╔╝╚██████╔╝███████╗    ███████║██║  ██║       ║
+║   ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝╚═════╝  ╚═════╝ ╚══════╝    ╚══════╝╚═╝  ╚═╝       ║
+║                                                                               ║
+║                    ▒▒▒ FLUTTER DEV × LOW-LEVEL HACKER ▒▒▒                    ║
+║                                                                               ║
+╚═══════════════════════════════════════════════════════════════════════════════╝
+```
 
-[![GitHub](https://img.shields.io/badge/GitHub-MridulSharma2552007-181717?style=for-the-badge&logo=github)](https://github.com/MridulSharma2552007)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Open Source](https://img.shields.io/badge/Open%20Source-%E2%9D%A4-red?style=for-the-badge)
+<img src="https://readme-typing-svg.demolab.com?font=VT323&size=24&duration=3000&pause=1000&color=00FF00&center=true&vCenter=true&width=600&lines=From+Flutter+to+Bare+Metal+C;Building+on+Linux+%7C+Loving+Retro+Tech;PSP+Enthusiast+%7C+Open+Source+Advocate" alt="Typing SVG" />
 
 </div>
 
 ---
 
-### 🖥️ `$ cat about.txt`
+<div align="center">
 
-```bash
-> Diving deep into the kernel while building beautiful UIs
-> Passionate about Linux, retro systems, and the beauty of low-level code
-> Love for PSPs, old hardware, and systems that were built to last
-> Open source is not just code — it's a philosophy
+```
+┌─────────────────────────────────────────────────────────────────┐
+│ SYSTEM BOOT SEQUENCE...                                        │
+│ ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 100% │
+│                                                                 │
+│ > Loading profile...                                           │
+│ > Name: Mridul Sharma                                          │
+│ > Role: Flutter Developer → C Programmer                       │
+│ > OS: Linux (obviously)                                        │
+│ > Passion: Retro Hardware | PSP | Old Systems                  │
+│ > Philosophy: "Code at the bit level"                          │
+│                                                                 │
+│ [✓] SYSTEM READY                                               │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+</div>
+
+---
+
+### 🕹️ **PLAYER STATS**
+
+```
+╔════════════════════════════════════════════════════════════════╗
+║  LEVEL: ████████████░░░░░░░░  [Senior Apprentice]             ║
+║                                                                ║
+║  ⚡ SKILLS UNLOCKED:                                           ║
+║     ├─ Flutter/Dart .................... [████████░░] 80%     ║
+║     ├─ C Programming ................... [██████░░░░] 60%     ║
+║     ├─ Linux Systems ................... [███████░░░] 70%     ║
+║     ├─ Low-Level Magic ................. [█████░░░░░] 50%     ║
+║     └─ Open Source Contribution ........ [████████░░] 75%     ║
+║                                                                ║
+║  🎯 CURRENT QUEST:                                             ║
+║     → Exploring Linux kernel internals                        ║
+║     → Building systems from scratch in C                      ║
+║     → Bridging high-level Flutter with native code            ║
+║                                                                ║
+╚════════════════════════════════════════════════════════════════╝
 ```
 
 ---
 
-### ⚡ `$ ls -la /skills`
+### 💾 **MEMORY BANK // TECH STACK**
+
+<div align="center">
 
 ```
-drwxr-xr-x  mobile/
-├── Flutter
-├── Dart
-└── Cross-platform Development
-
-drwxr-xr-x  systems/
-├── C
-├── Linux
-└── Low-level Programming
-
-drwxr-xr-x  interests/
-├── Open Source
-├── Retro Hardware (PSP, Old Systems)
-└── Kernel Development
+┌──────────────────────────────────────────────────────────────┐
+│                                                              │
+│  [MOBILE]              [SYSTEMS]           [TOOLS]          │
+│   ┌─────┐              ┌─────┐            ┌─────┐          │
+│   │ 📱  │              │ 🐧  │            │ 🔧  │          │
+│   └─────┘              └─────┘            └─────┘          │
+│   Flutter               Linux              Git             │
+│   Dart                  C/C++              VSCode          │
+│   Android               Kernel             Terminal        │
+│   iOS                   Assembly           Vim             │
+│                                                              │
+│  [INTERESTS]           [RETRO]             [MINDSET]        │
+│   ┌─────┐              ┌─────┐            ┌─────┐          │
+│   │ 🌐  │              │ 🎮  │            │ 💭  │          │
+│   └─────┘              └─────┘            └─────┘          │
+│   Open Source           PSP                Minimalist      │
+│   Linux Ricing          Old Hardware       Bit-Level       │
+│   Low-Level             Retro Systems      FOSS Forever    │
+│                                                              │
+└──────────────────────────────────────────────────────────────┘
 ```
+
+</div>
 
 ---
 
-### 🔧 `$ ./current_focus.sh`
+### 🖥️ **TERMINAL OUTPUT**
 
 ```c
+// current_mission.c
 #include <stdio.h>
+#include <passion.h>
 
-int main() {
-    printf("→ Exploring Linux internals\n");
-    printf("→ Building with C from scratch\n");
-    printf("→ Contributing to open source\n");
-    printf("→ Bridging Flutter & native systems\n");
-    return 0;
+int main(void) {
+    printf("╔════════════════════════════════════════╗\n");
+    printf("║  MISSION: Build Beautiful Software    ║\n");
+    printf("║  METHOD: From UI to Assembly          ║\n");
+    printf("╚════════════════════════════════════════╝\n\n");
+    
+    while (learning) {
+        explore_linux_kernel();
+        write_c_code();
+        build_flutter_apps();
+        contribute_to_opensource();
+        tinker_with_old_hardware();
+    }
+    
+    return 0; // Never returns, infinite loop of learning
 }
 ```
 
 ---
 
-### 📊 `$ git stats`
+### 📟 **RETRO CONSOLE // PHILOSOPHY**
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=MridulSharma2552007&show_icons=true&theme=gruvbox&hide_border=true&bg_color=1d2021&title_color=fabd2f&icon_color=fe8019&text_color=ebdbb2" alt="GitHub Stats" />
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=MridulSharma2552007&theme=gruvbox&hide_border=true&background=1d2021&ring=fabd2f&fire=fe8019&currStreakLabel=fabd2f" alt="GitHub Streak" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MridulSharma2552007&layout=compact&theme=gruvbox&hide_border=true&bg_color=1d2021&title_color=fabd2f&text_color=ebdbb2" alt="Top Languages" />
+```
+╔═══════════════════════════════════════════════════════════════╗
+║                                                               ║
+║  "The best code is the code you understand at the bit level" ║
+║                                                               ║
+║  "Old systems had soul — let's bring that back"              ║
+║                                                               ║
+║  "Open source: built by the community, for the community"    ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
+```
 
 </div>
 
 ---
 
-### 💭 `$ echo $PHILOSOPHY`
+### 🎮 **CONNECT // MULTIPLAYER MODE**
 
-> *"The best code is the code you understand at the bit level"*  
-> *"Open source: built by the community, for the community"*  
-> *"Old systems had soul — let's bring that back"*
+<div align="center">
+
+```
+┌─────────────────────────────────────────────────────────┐
+│                                                         │
+│  Press [START] to collaborate                           │
+│                                                         │
+│  ┌──────────┐  ┌──────────┐  ┌──────────┐             │
+│  │  GITHUB  │  │  LINUX   │  │   FOSS   │             │
+│  └──────────┘  └──────────┘  └──────────┘             │
+│                                                         │
+└─────────────────────────────────────────────────────────┘
+```
+
+[![GitHub](https://img.shields.io/badge/GitHub-@MridulSharma2552007-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MridulSharma2552007)
+![Profile Views](https://komarev.com/ghpvc/?username=MridulSharma2552007&color=brightgreen&style=for-the-badge&label=VISITORS)
+
+</div>
 
 ---
 
 <div align="center">
 
-### `$ sudo connect`
+```
+╔═══════════════════════════════════════════════════════════════╗
+║                                                               ║
+║              ⚡ POWERED BY PASSION & CURIOSITY ⚡              ║
+║                                                               ║
+║         Made with ❤️ on Linux | Inspired by PSP Era          ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
+```
 
-**Let's build something legendary together** 🚀
-
-[![GitHub](https://img.shields.io/badge/-@MridulSharma2552007-181717?style=flat-square&logo=github)](https://github.com/MridulSharma2552007)
-
----
-
-![Visitor Count](https://komarev.com/ghpvc/?username=MridulSharma2552007&color=fabd2f&style=flat-square&label=VISITORS)
-
-*Made with ❤️ and a terminal*
+<sub>© 2024 Mridul Sharma • Built in the terminal, deployed with love</sub>
 
 </div>
