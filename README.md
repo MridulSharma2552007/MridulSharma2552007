@@ -105,7 +105,6 @@ mridul@linux:~$ cat ~/.philosophy
 
 ```bash
 mridul@linux:~$ ./connect.sh
-
 [GitHub]  https://github.com/MridulSharma2552007
 [Status]  Open to collaboration
 [Mode]    Always learning
