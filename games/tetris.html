@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"><title>RETRO TETRIS</title><style>
+body{margin:0;background:#000;display:flex;justify-content:center;align-items:center;height:100vh;font-family:monospace;color:#0f0}
+canvas{border:3px solid #0f0;box-shadow:0 0 20px #0f0}
+#info{position:absolute;top:20px;color:#0f0;text-shadow:0 0 10px #0f0}
+</style></head><body>
+<div id="info">SCORE: <span id="score">0</span> | LINES: <span id="lines">0</span> | [←→] MOVE | [↓] DROP | [↑] ROTATE</div>
+<canvas id="c"></canvas>
+<script>
+const c=document.getElementById('c'),ctx=c.getContext('2d'),W=10,H=20,SZ=25;
+c.width=W*SZ;c.height=H*SZ;
+let board=Array(H).fill().map(()=>Array(W).fill(0)),
+piece,x,y,score=0,lines=0,drop=0,
+shapes=[[[1,1,1,1]],[[1,1],[1,1]],[[1,1,1],[0,1,0]],[[1,1,1],[1,0,0]],[[1,1,1],[0,0,1]],[[1,1,0],[0,1,1]],[[0,1,1],[1,1,0]]],
+colors=['#000','#0ff','#ff0','#f0f','#00f','#f80','#0f0','#f00'];
+function newPiece(){piece=shapes[Math.random()*7|0];x=W/2-1|0;y=0;if(collide())location.reload()}
+function collide(){for(let r=0;r<piece.length;r++)for(let c=0;c<piece[r].length;c++)if(piece[r][c]&&(board[y+r]?.[x+c]??1))return 1}
+function merge(){piece.forEach((r,i)=>r.forEach((v,j)=>{if(v)board[y+i][x+j]=v+1}))}
+function clearLines(){let cleared=0;for(let r=H-1;r>=0;r--)if(board[r].every(v=>v)){board.splice(r,1);board.unshift(Array(W).fill(0));cleared++;r++}lines+=cleared;score+=cleared*100}
+function rotate(){let old=piece;piece=piece[0].map((_,i)=>piece.map(r=>r[i]).reverse());if(collide())piece=old}
+function draw(){ctx.fillStyle='#000';ctx.fillRect(0,0,c.width,c.height);board.forEach((r,i)=>r.forEach((v,j)=>{if(v){ctx.fillStyle=colors[v];ctx.fillRect(j*SZ,i*SZ,SZ-1,SZ-1)}}));piece.forEach((r,i)=>r.forEach((v,j)=>{if(v){ctx.fillStyle=colors[1];ctx.fillRect((x+j)*SZ,(y+i)*SZ,SZ-1,SZ-1)}}))}
+function update(){if(++drop>30){drop=0;y++;if(collide()){y--;merge();clearLines();newPiece()}}draw();document.getElementById('score').textContent=score;document.getElementById('lines').textContent=lines;requestAnimationFrame(update)}
+document.onkeydown=e=>{if(e.key=='ArrowLeft'){x--;if(collide())x++}if(e.key=='ArrowRight'){x++;if(collide())x--}if(e.key=='ArrowDown'){y++;if(collide()){y--;merge();clearLines();newPiece()}}if(e.key=='ArrowUp')rotate();e.preventDefault()};
+newPiece();update();
+</script></body></html>

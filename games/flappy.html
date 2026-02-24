@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"><title>FLAPPY TERMINAL</title><style>
+body{margin:0;background:#000;display:flex;justify-content:center;align-items:center;height:100vh;font-family:monospace;color:#0f0}
+canvas{border:3px solid #0f0;box-shadow:0 0 20px #0f0}
+#info{position:absolute;top:20px;color:#0f0;text-shadow:0 0 10px #0f0}
+</style></head><body>
+<div id="info">SCORE: <span id="score">0</span> | [SPACE/CLICK] FLAP</div>
+<canvas id="c"></canvas>
+<script>
+const c=document.getElementById('c'),ctx=c.getContext('2d');
+c.width=400;c.height=600;
+let bird={y:300,v:0,r:15},pipes=[],score=0,frame=0,dead=0;
+function addPipe(){let gap=150,y=100+Math.random()*250;pipes.push({x:c.width,y:y,w:50,gap:gap})}
+function draw(){ctx.fillStyle='#000';ctx.fillRect(0,0,c.width,c.height);ctx.fillStyle='#0f0';ctx.beginPath();ctx.arc(50,bird.y,bird.r,0,Math.PI*2);ctx.fill();pipes.forEach(p=>{ctx.fillRect(p.x,0,p.w,p.y);ctx.fillRect(p.x,p.y+p.gap,p.w,c.height)})}
+function update(){if(dead){ctx.fillStyle='#f00';ctx.font='40px monospace';ctx.fillText('GAME OVER',80,300);ctx.fillText('SCORE: '+score,100,350);return}bird.v+=0.5;bird.y+=bird.v;if(bird.y<bird.r||bird.y>c.height-bird.r)dead=1;if(frame++%90==0)addPipe();pipes.forEach((p,i)=>{p.x-=3;if(p.x+p.w<0){pipes.splice(i,1);score++}if(50+bird.r>p.x&&50-bird.r<p.x+p.w&&(bird.y-bird.r<p.y||bird.y+bird.r>p.y+p.gap))dead=1});draw();document.getElementById('score').textContent=score;requestAnimationFrame(update)}
+function flap(){if(!dead)bird.v=-8}
+c.onclick=flap;
+document.onkeydown=e=>{if(e.key==' '){flap();e.preventDefault()}};
+update();
+</script></body></html>

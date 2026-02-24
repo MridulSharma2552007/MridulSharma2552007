@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"><title>SPACE INVADERS</title><style>
+body{margin:0;background:#000;display:flex;justify-content:center;align-items:center;height:100vh;font-family:monospace;color:#0f0}
+canvas{border:3px solid #0f0;box-shadow:0 0 20px #0f0}
+#info{position:absolute;top:20px;color:#0f0;text-shadow:0 0 10px #0f0}
+</style></head><body>
+<div id="info">SCORE: <span id="score">0</span> | LIVES: <span id="lives">3</span> | [←→] MOVE | [SPACE] FIRE</div>
+<canvas id="c"></canvas>
+<script>
+const c=document.getElementById('c'),ctx=c.getContext('2d');
+c.width=600;c.height=400;
+let player={x:280,y:360,w:40,h:20},bullets=[],aliens=[],score=0,lives=3,dir=1;
+for(let r=0;r<4;r++)for(let i=0;i<8;i++)aliens.push({x:60+i*60,y:40+r*40,w:30,h:20,alive:1});
+function draw(){ctx.fillStyle='#000';ctx.fillRect(0,0,c.width,c.height);ctx.fillStyle='#0f0';ctx.fillRect(player.x,player.y,player.w,player.h);bullets.forEach(b=>ctx.fillRect(b.x,b.y,3,10));aliens.forEach(a=>{if(a.alive){ctx.fillRect(a.x,a.y,a.w,a.h);ctx.clearRect(a.x+5,a.y+5,8,8);ctx.clearRect(a.x+17,a.y+5,8,8)}})}
+function update(){bullets.forEach((b,i)=>{b.y-=5;if(b.y<0)bullets.splice(i,1);aliens.forEach(a=>{if(a.alive&&b.x>a.x&&b.x<a.x+a.w&&b.y>a.y&&b.y<a.y+a.h){a.alive=0;bullets.splice(i,1);score+=10}})});let edge=0;aliens.forEach(a=>{if(a.alive){a.x+=dir*0.5;if(a.x<10||a.x>550)edge=1;if(a.y>340)lives=0}});if(edge){dir*=-1;aliens.forEach(a=>a.y+=10)}if(aliens.every(a=>!a.alive))location.reload();if(lives<=0){ctx.fillStyle='#f00';ctx.font='40px monospace';ctx.fillText('GAME OVER',180,200);return}draw();document.getElementById('score').textContent=score;document.getElementById('lives').textContent=lives;requestAnimationFrame(update)}
+document.onkeydown=e=>{if(e.key=='ArrowLeft'&&player.x>0)player.x-=10;if(e.key=='ArrowRight'&&player.x<560)player.x+=10;if(e.key==' '){bullets.push({x:player.x+18,y:player.y});e.preventDefault()}};
+update();
+</script></body></html>

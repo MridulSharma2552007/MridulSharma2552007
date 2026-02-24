@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"><title>CONWAY'S GAME OF LIFE</title><style>
+body{margin:0;background:#000;display:flex;justify-content:center;align-items:center;height:100vh;font-family:monospace;color:#0f0}
+canvas{border:3px solid #0f0;box-shadow:0 0 20px #0f0;cursor:crosshair}
+#info{position:absolute;top:20px;color:#0f0;text-shadow:0 0 10px #0f0}
+</style></head><body>
+<div id="info">GEN: <span id="gen">0</span> | [CLICK] TOGGLE CELL | [SPACE] PAUSE | [R] RANDOM | [C] CLEAR</div>
+<canvas id="c"></canvas>
+<script>
+const c=document.getElementById('c'),ctx=c.getContext('2d'),W=60,H=40,SZ=10;
+c.width=W*SZ;c.height=H*SZ;
+let grid=Array(H).fill().map(()=>Array(W).fill(0)),gen=0,paused=1;
+function count(r,c){let n=0;for(let i=-1;i<=1;i++)for(let j=-1;j<=1;j++)if(i||j)n+=grid[(r+i+H)%H]?.[(c+j+W)%W]||0;return n}
+function step(){let next=grid.map((r,i)=>r.map((v,j)=>{let n=count(i,j);return n==3||n==2&&v?1:0}));grid=next;gen++}
+function draw(){ctx.fillStyle='#000';ctx.fillRect(0,0,c.width,c.height);ctx.fillStyle='#0f0';grid.forEach((r,i)=>r.forEach((v,j)=>{if(v)ctx.fillRect(j*SZ,i*SZ,SZ-1,SZ-1)}));document.getElementById('gen').textContent=gen}
+function update(){if(!paused)step();draw();requestAnimationFrame(update)}
+c.onclick=e=>{let rect=c.getBoundingClientRect(),x=(e.clientX-rect.left)/SZ|0,y=(e.clientY-rect.top)/SZ|0;grid[y][x]=1-grid[y][x]};
+document.onkeydown=e=>{if(e.key==' ')paused=!paused;if(e.key=='r'){grid=grid.map(r=>r.map(()=>Math.random()>.7?1:0));gen=0}if(e.key=='c'){grid=grid.map(r=>r.map(()=>0));gen=0}};
+update();
+</script></body></html>
