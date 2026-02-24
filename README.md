@@ -1,184 +1,122 @@
-<div align="center">
-
 ```
-╔═══════════════════════════════════════════════════════════════════════════════╗
-║                                                                               ║
-║   ███╗   ███╗██████╗ ██╗██████╗ ██╗   ██╗██╗         ███████╗██╗  ██╗       ║
-║   ████╗ ████║██╔══██╗██║██╔══██╗██║   ██║██║         ██╔════╝██║  ██║       ║
-║   ██╔████╔██║██████╔╝██║██║  ██║██║   ██║██║         ███████╗███████║       ║
-║   ██║╚██╔╝██║██╔══██╗██║██║  ██║██║   ██║██║         ╚════██║██╔══██║       ║
-║   ██║ ╚═╝ ██║██║  ██║██║██████╔╝╚██████╔╝███████╗    ███████║██║  ██║       ║
-║   ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝╚═════╝  ╚═════╝ ╚══════╝    ╚══════╝╚═╝  ╚═╝       ║
-║                                                                               ║
-║                    ▒▒▒ FLUTTER DEV × LOW-LEVEL HACKER ▒▒▒                    ║
-║                                                                               ║
-╚═══════════════════════════════════════════════════════════════════════════════╝
+$ cat /home/mridul/profile.txt
 ```
 
-<img src="https://readme-typing-svg.demolab.com?font=VT323&size=24&duration=3000&pause=1000&color=00FF00&center=true&vCenter=true&width=600&lines=From+Flutter+to+Bare+Metal+C;Building+on+Linux+%7C+Loving+Retro+Tech;PSP+Enthusiast+%7C+Open+Source+Advocate" alt="Typing SVG" />
+# MRIDUL SHARMA
 
-</div>
+```bash
+mridul@linux:~$ whoami
+Flutter Developer | C Programmer | Open Source Enthusiast
 
----
-
-<div align="center">
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│ SYSTEM BOOT SEQUENCE...                                        │
-│ ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 100% │
-│                                                                 │
-│ > Loading profile...                                           │
-│ > Name: Mridul Sharma                                          │
-│ > Role: Flutter Developer → C Programmer                       │
-│ > OS: Linux (obviously)                                        │
-│ > Passion: Retro Hardware | PSP | Old Systems                  │
-│ > Philosophy: "Code at the bit level"                          │
-│                                                                 │
-│ [✓] SYSTEM READY                                               │
-└─────────────────────────────────────────────────────────────────┘
-```
-
-</div>
-
----
-
-### 🕹️ **PLAYER STATS**
-
-```
-╔════════════════════════════════════════════════════════════════╗
-║  LEVEL: ████████████░░░░░░░░  [Senior Apprentice]             ║
-║                                                                ║
-║  ⚡ SKILLS UNLOCKED:                                           ║
-║     ├─ Flutter/Dart .................... [████████░░] 80%     ║
-║     ├─ C Programming ................... [██████░░░░] 60%     ║
-║     ├─ Linux Systems ................... [███████░░░] 70%     ║
-║     ├─ Low-Level Magic ................. [█████░░░░░] 50%     ║
-║     └─ Open Source Contribution ........ [████████░░] 75%     ║
-║                                                                ║
-║  🎯 CURRENT QUEST:                                             ║
-║     → Exploring Linux kernel internals                        ║
-║     → Building systems from scratch in C                      ║
-║     → Bridging high-level Flutter with native code            ║
-║                                                                ║
-╚════════════════════════════════════════════════════════════════╝
+mridul@linux:~$ uname -a
+Linux | Low-Level Systems | Retro Hardware Lover (PSP, Old Systems)
 ```
 
 ---
 
-### 💾 **MEMORY BANK // TECH STACK**
+## 📁 ABOUT
 
-<div align="center">
+```bash
+mridul@linux:~$ cat about.txt
 
+> Building beautiful UIs with Flutter
+> Diving deep into C and low-level programming
+> Passionate about Linux, kernel internals, and bare metal
+> Love for retro systems: PSP, old hardware, and the beauty of simplicity
+> Open source is not just code — it's a way of life
 ```
-┌──────────────────────────────────────────────────────────────┐
-│                                                              │
-│  [MOBILE]              [SYSTEMS]           [TOOLS]          │
-│   ┌─────┐              ┌─────┐            ┌─────┐          │
-│   │ 📱  │              │ 🐧  │            │ 🔧  │          │
-│   └─────┘              └─────┘            └─────┘          │
-│   Flutter               Linux              Git             │
-│   Dart                  C/C++              VSCode          │
-│   Android               Kernel             Terminal        │
-│   iOS                   Assembly           Vim             │
-│                                                              │
-│  [INTERESTS]           [RETRO]             [MINDSET]        │
-│   ┌─────┐              ┌─────┐            ┌─────┐          │
-│   │ 🌐  │              │ 🎮  │            │ 💭  │          │
-│   └─────┘              └─────┘            └─────┘          │
-│   Open Source           PSP                Minimalist      │
-│   Linux Ricing          Old Hardware       Bit-Level       │
-│   Low-Level             Retro Systems      FOSS Forever    │
-│                                                              │
-└──────────────────────────────────────────────────────────────┘
-```
-
-</div>
 
 ---
 
-### 🖥️ **TERMINAL OUTPUT**
+## 💻 TECH STACK
+
+```bash
+mridul@linux:~$ ls -la /skills
+
+drwxr-xr-x  mobile/
+    ├── Flutter
+    ├── Dart
+    └── Cross-platform Apps
+
+drwxr-xr-x  systems/
+    ├── C
+    ├── Linux
+    ├── Kernel Programming
+    └── Low-level Development
+
+drwxr-xr-x  tools/
+    ├── Git
+    ├── Terminal
+    ├── Vim/VSCode
+    └── GCC/Make
+```
+
+---
+
+## 🔧 CURRENT WORK
 
 ```c
-// current_mission.c
+mridul@linux:~$ cat current_mission.c
+
 #include <stdio.h>
-#include <passion.h>
 
 int main(void) {
-    printf("╔════════════════════════════════════════╗\n");
-    printf("║  MISSION: Build Beautiful Software    ║\n");
-    printf("║  METHOD: From UI to Assembly          ║\n");
-    printf("╚════════════════════════════════════════╝\n\n");
-    
-    while (learning) {
+    while (1) {
         explore_linux_kernel();
         write_c_code();
         build_flutter_apps();
         contribute_to_opensource();
-        tinker_with_old_hardware();
+        tinker_with_psp();
     }
-    
-    return 0; // Never returns, infinite loop of learning
+    return 0;
 }
 ```
 
 ---
 
-### 📟 **RETRO CONSOLE // PHILOSOPHY**
+## 🎯 INTERESTS
 
-<div align="center">
+```bash
+mridul@linux:~$ echo $INTERESTS
 
+→ Linux kernel internals
+→ Low-level systems programming
+→ Retro hardware (PSP, old computers)
+→ Open source contribution
+→ Building from scratch in C
+→ Bridging high-level and low-level code
 ```
-╔═══════════════════════════════════════════════════════════════╗
-║                                                               ║
-║  "The best code is the code you understand at the bit level" ║
-║                                                               ║
-║  "Old systems had soul — let's bring that back"              ║
-║                                                               ║
-║  "Open source: built by the community, for the community"    ║
-║                                                               ║
-╚═══════════════════════════════════════════════════════════════╝
-```
-
-</div>
 
 ---
 
-### 🎮 **CONNECT // MULTIPLAYER MODE**
+## 💭 PHILOSOPHY
 
-<div align="center">
+```bash
+mridul@linux:~$ cat ~/.philosophy
 
+"The best code is the code you understand at the bit level"
+"Old systems had soul — let's bring that back"
+"Open source: built by the community, for the community"
 ```
-┌─────────────────────────────────────────────────────────┐
-│                                                         │
-│  Press [START] to collaborate                           │
-│                                                         │
-│  ┌──────────┐  ┌──────────┐  ┌──────────┐             │
-│  │  GITHUB  │  │  LINUX   │  │   FOSS   │             │
-│  └──────────┘  └──────────┘  └──────────┘             │
-│                                                         │
-└─────────────────────────────────────────────────────────┘
-```
-
-[![GitHub](https://img.shields.io/badge/GitHub-@MridulSharma2552007-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MridulSharma2552007)
-![Profile Views](https://komarev.com/ghpvc/?username=MridulSharma2552007&color=brightgreen&style=for-the-badge&label=VISITORS)
-
-</div>
 
 ---
 
-<div align="center">
+## 🔗 CONNECT
 
-```
-╔═══════════════════════════════════════════════════════════════╗
-║                                                               ║
-║              ⚡ POWERED BY PASSION & CURIOSITY ⚡              ║
-║                                                               ║
-║         Made with ❤️ on Linux | Inspired by PSP Era          ║
-║                                                               ║
-╚═══════════════════════════════════════════════════════════════╝
+```bash
+mridul@linux:~$ ./connect.sh
+
+[GitHub]  https://github.com/MridulSharma2552007
+[Status]  Open to collaboration
+[Mode]    Always learning
 ```
 
-<sub>© 2024 Mridul Sharma • Built in the terminal, deployed with love</sub>
+[![GitHub](https://img.shields.io/badge/GitHub-MridulSharma2552007-181717?style=flat-square&logo=github)](https://github.com/MridulSharma2552007)
+![Visitors](https://komarev.com/ghpvc/?username=MridulSharma2552007&color=green&style=flat-square&label=visitors)
 
-</div>
+---
+
+```bash
+mridul@linux:~$ exit
+# Made with ❤️ on Linux
+```
