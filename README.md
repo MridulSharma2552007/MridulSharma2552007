@@ -89,27 +89,6 @@ mridul@linux:~$ echo $INTERESTS
 
 ---
 
-## 🎮 RETRO ARCADE
-
-```bash
-mridul@linux:~$ ls -la /games
-
--rwxr-xr-x  space-invaders.html    # Classic alien shooter
--rwxr-xr-x  tetris.html            # Block stacking puzzle
--rwxr-xr-x  breakout.html          # Brick breaker arcade
--rwxr-xr-x  pong.html              # 2-player paddle battle
--rwxr-xr-x  flappy.html            # Flappy bird clone
--rwxr-xr-x  game-of-life.html      # Conway's cellular automaton
-
-mridul@linux:~$ ./play.sh
-```
-
-🕹️ **[PLAY SPACE INVADERS](games/space-invaders.html)** | 🟩 **[PLAY TETRIS](games/tetris.html)** | 🧱 **[PLAY BREAKOUT](games/breakout.html)**
-
-🏓 **[PLAY PONG](games/pong.html)** | 🐦 **[PLAY FLAPPY](games/flappy.html)** | 🔬 **[GAME OF LIFE](games/game-of-life.html)**
-
----
-
 ## 💭 PHILOSOPHY
 
 ```bash
@@ -119,6 +98,22 @@ mridul@linux:~$ cat ~/.philosophy
 "Old systems had soul — let's bring that back"
 "Open source: built by the community, for the community"
 ```
+
+---
+
+## 📊 GITHUB STATS
+
+```bash
+mridul@linux:~$ ./fetch_stats.sh
+```
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MridulSharma2552007&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=0f0&icon_color=0f0&text_color=0f0)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=MridulSharma2552007&theme=dark&hide_border=true&background=0D1117&stroke=0f0&ring=0f0&fire=0f0&currStreakLabel=0f0&sideNums=0f0&currStreakNum=0f0&sideLabels=0f0)
+
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=MridulSharma2552007&theme=github-compact&hide_border=true&bg_color=0d1117&color=0f0&line=0f0&point=0f0)
+
+![Trophy](https://github-profile-trophy.vercel.app/?username=MridulSharma2552007&theme=radical&no-frame=true&no-bg=true&column=4&title=Commits,Repositories,Stars,Followers)
 
 ---
 
