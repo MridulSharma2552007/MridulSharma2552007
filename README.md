@@ -136,5 +136,5 @@ mridul@linux:~$ ./connect.sh
 
 ```bash
 mridul@linux:~$ exit
-# Made with ❤️ on Linux
+# Made with ❤️ on Linux.
 ```
