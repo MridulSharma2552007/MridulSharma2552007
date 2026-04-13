@@ -129,7 +129,6 @@ mridul@linux:~$ ./connect.sh
 [Mode]    Always learning
 ```
 
-[![GitHub](https://img.shields.io/badge/GitHub-MridulSharma2552007-181717?style=flat-square&logo=github)](https://github.com/MridulSharma2552007)
 ![Visitors](https://komarev.com/ghpvc/?username=MridulSharma2552007&color=green&style=flat-square&label=visitors)
 
 ---
