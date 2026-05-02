@@ -1,4 +1,4 @@
-## I JUST WANT TO KICKFLIP INTO THE SUNSET AND DISAPPEAR
+## I JUST WANT TO KICKFLIP INTO THE SUNSET AND DISAPPEAR.
 ## 🌐 Socials:
 [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:mridul25sharma52007@gmail.com) 
 
